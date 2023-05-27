@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOJA DE ESTILOS</title>
+    <style>
+        .claseUno{
+            color:#CFDE43;
+        }
+    </style>
+    <link href="./style.css" rel="stylesheet">
+</head>
+<body>
+    <!-- HOJAS DE ESTILOS
+    
+    1- FORMA INLINE (se utiliza dentro de las etiquetas de HTML atributo style)
+    2- FORMA DENTRO DEL DOCUMENTO (SE DECLARA DENTRO DEL HEAD => <style>)
+    3- FORMA DOCUMENTO APARTE (hojaEstilo.css) LINK AL DOCUMENTO DE HTML    
+-->
+
+    <!-- COMO CREAMOS LOS SELECTORES 
+    
+   selectores clase => class 
+    
+    .nombreClass{
+        atributo:valor;
+        atributo:valor;
+        atributo:valor;
+    }
+
+    selectores Id => id
+
+    #nombreClass{
+        atributo:valor;
+        atributo:valor;
+        atributo:valor;
+    }
+    -->
+
+    <!-- SELECTORES DE ELEMENTOS (ETIQUETAS) 
+
+    p{
+        atributo:valor;
+        atributo:valor;
+    }
+
+    -->
+
+    <div style="color:red; background-color:blue">prueba...</div>
+
+    <!--FORMATOS DE COLORES 
+    
+   INGLES
+   RGB  (ROJO, VERDE,AZUL) => 0 - 255    
+   HEX #RRGGBB => 0-9 A-F
+   RGBA (ROJO, VERDE, AZUL, ALPHA) => 0-255 y 0-1
+    -->
+
+    <p  style="color: rgb(2,255,0)">pruebasss..</p>
+    <p style="color:#CFDE43">pruebaa...</p>
+    <p style="color:rgba(2,255,0,0.4);">prueba...</p>
+    <h1 class="claseUno">Prueba...</h1>
+
+    <!-- UNIDADES DE MEDIDAS LONGITUDES
+    
+    ABSOLUTAS =>
+    
+    cm = centimetros
+    mm = milimetros
+    in = pulgadas
+    px = pixeles
+    pt = points
+
+    RELATIVAS =>
+
+    vw = viewports width
+    vh = viewports height
+    %
+    em, rem = fuentes de letras
+
+    -->
+
+    <ul>
+        <li>uno...</li>
+        <li>dos...</li>
+        <li>tres...</li>
+        <li>cuatro...</li>
+    </ul>
+
+    <table>
+        <tr><td>1</td><td>2</td</tr>
+        <tr><td>1</td><td>2</td</tr>
+        <tr><td>1</td><td>2</td</tr>
+        <tr><td>1</td><td>2</td</tr>
+        <tr><td>1</td><td>2</td</tr>
+        <tr><td>1</td><td>2</td</tr>
+        <tr><td>1</td><td>2</td</tr>
+        <tr><td>1</td><td>2</td</tr>
+        
+    </table>
+
+    <input>
+</body>
+</html>
