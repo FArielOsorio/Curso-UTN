@@ -58,7 +58,8 @@ main section p{
     color: white;
     text-align: justify;
     margin-bottom: 20px;
-    line-height: 16px; 
+    line-height: 16px;
+    font-size: 10px; 
 }
 
 aside {
@@ -73,6 +74,9 @@ aside h2, aside ul li{
     margin-bottom: 15px;
 }
 
+aside h2{
+    font-size: 20px;
+}
 aside ul li {
     list-style-type: none;
     border-bottom: 1px solid white;
@@ -80,6 +84,7 @@ aside ul li {
 
 aside ul li a{
     text-decoration: none;
+    font-size: 15px;
 }
 
 .containt {
@@ -106,7 +111,7 @@ footer section p{
 }
 
 .card {
-    box-shadow: 0 4px 8px 0 rgba(69, 6, 244, 0.5);
+    box-shadow: 0 4px 8px  rgba(69, 6, 244, 0.5);
     transition: .3s;
     background-color: white;
     border-radius: 10px;
