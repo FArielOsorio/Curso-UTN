@@ -1,0 +1,19 @@
+.container {
+    width: 100%;
+    background-color: #ddd;
+    border: 2px dotted red;
+}
+
+.skill{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    padding-right: 10px;
+    
+}
+
+.html{
+    width: 90%;
+    background-color: #04AA6D;
+}
