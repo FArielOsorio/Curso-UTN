@@ -125,7 +125,7 @@ main{
 }
 
 main section .card{
-    width: 31%;
+    width: 30%;
     height: 587.2px;
     margin: 13.5px;
     border: 2px solid #24a04a;
@@ -240,6 +240,7 @@ main section .card button{
     font-weight: bold;
     cursor: pointer;
     bottom: 10px;
+    margin-top: 20px;
     
 }
 main section .card .precio{
