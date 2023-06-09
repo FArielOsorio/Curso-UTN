@@ -121,9 +121,11 @@
 }
 
 .rotateX{
-    transition: width 4s;
+    transition: width 4s, height 6s;
 }
 
 .rotateX:hover{
     width: 300px !important;
+    height: 200px !important;
+    
 }
