@@ -67,29 +67,29 @@
     margin: 10px;
     border: 1px solid white;
     background-color: red;
+
 }
 
 .containerB{
-    background-color: green;
+    background-color: black;
     display: flex;
     min-height: 80vh;
 
 }
 
-.containerB itemA{
+.containerB .itemA{
     background-color: red;
     width: 40%;
     margin: 10px;
-   
-    
 }
 
-.containerB itemB{
+.containerB .itemB{
     background-color: red;
     width: 60%;
     display: flex;
-    flex-wrap: wrap;
     margin: 10px;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .containerB .itemB div{
@@ -97,4 +97,33 @@
     height: 100px;
     margin: 10px;
     background-color: black;
+}
+
+.rotate{
+    background-color: orange !important;
+    transform: skewX(30deg);
+}
+
+.rotate:hover{
+    transform: rotate(20deg);
+    background-color: aqua !important;
+}
+
+.scale{
+    color:white;
+    text-align: center;
+    transform: scale(2,0.8);
+}
+
+.translate:hover{
+    transform: translate(50px, 100px);
+    background-color: white !important;
+}
+
+.rotateX{
+    transition: width 4s;
+}
+
+.rotateX:hover{
+    width: 300px !important;
 }
