@@ -81,16 +81,19 @@ footer{
     align-items: center;
 }
 
+
 main{
     display: flex;
     background-color: #cecece;
+    flex-wrap: wrap;
 }
 
 main .card{
     width: 23%;
     background-color: white;
+    margin: 10px;
     border-radius: 20px;
-    margin-top: 10px;
+    justify-content: space-around;
 }
 
 main .card .image img{
@@ -104,7 +107,7 @@ main .card .precio{
     color: black;
     font-weight: bold;
     padding: 10px;
-    border-left: 2px solid blue;
+    border-left: 2px solid green;
     text-align: center;
 }
 
@@ -115,20 +118,20 @@ main .card .titulo{
 }
 
 main .card .cart{
-    display: ;
+    display: none;
 }
 
 main .card .precio:hover{
-    color: #3f3333;
+    color: black;
     font-size: 22px;
     cursor: pointer;
-    background-color: #cecece48;
+    background-color: #cecece;
     border-radius: 10px;
-    border: 2px solid green;
+    border: 2px solid pink;
 }
 
 main .card .precio:hover .cart{
-    display: inline-block;
+    display: block;
 }
 
 main .card .content-card{
