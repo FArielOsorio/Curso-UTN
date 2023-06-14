@@ -16,7 +16,7 @@
     place-content: [align-content] [justify-content];
 
      */
-    place-items: center stretch;
+    
 }
 
 .grid .item{
@@ -28,4 +28,55 @@
     place-self => [align-self] [justify-self]
         
     */
+}
+
+.item-1{
+    /*grid-column-start: 1;
+    grid-column-end: span 3;
+    grid-column: 1 / span 3;
+    grid-row: 1 / span 2;
+    grid-area: grid-row-start / grid-column-start / grid-row-end / grid-column-end;*/
+    grid-area: 2 / 1 / span 2 / span 3;
+}
+
+.grid-contenedor{
+    display: grid;
+    background-color: beige;
+    gap: 20px;
+    grid-template-areas: 'header header header'
+                         'menu main aside'
+                         'menu footer footer';
+}
+
+.grid-contenedor .item{
+    background-color: bisque;
+    color: black;
+    font-size: 30px;
+    text-align: center;
+}
+
+.grid-contenedor .item-header{
+    grid-area: header;
+}
+
+.grid-contenedor .item-menu{
+    grid-area: menu;
+}
+
+.grid-contenedor .item-main{
+    grid-area: main;
+}
+
+.grid-contenedor .item-aside{
+    grid-area: aside;
+}
+
+.grid-contenedor .item-footer{
+    grid-area: footer;
+}
+
+.container{
+    column-count: 3;
+    column-width: 200px;
+    column-gap: 10px;
 }
