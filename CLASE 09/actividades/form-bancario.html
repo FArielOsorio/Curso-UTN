@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Bancario</title>
+    <link rel="stylesheet" href="./form-bancario.css"/>
+</head>
+<body>
+    <form class="formulario">
+        <label for="usuario">Usuario:</label>
+        <input type="text" required placeholder="Ingrese su usuario" id="usuario">
+        <label for="contraseña">Contraseña:</label>
+        <input type="password" required placeholder="Ingrese su contraseña" id="contraseña">
+        <label for="mail">Mail:</label>
+        <input type="email" required placeholder="Ingrese su e-mail" id="mail">
+        <label for="tel">Teléfono:</label>
+        <input form="tel" required placeholder="Ingrese su número de teléfono" id="tel">
+        <label>Caja de ahorro</label>
+        <input type="radio" value="1" name="opcion">
+        <label>Caja de ahorro USD</label>
+        <input type="radio" value="2" name="opcion">
+        <label>Cuenta corriente</label>
+        <input type="radio" value="3" name="opcion">
+        <textarea placeholder="Escriba su consulta"></textarea>
+        <button type="submit">Enviar</button>
+        <button type="reset">Limpiar</button>
+    </form>
+</body>
+</html>
