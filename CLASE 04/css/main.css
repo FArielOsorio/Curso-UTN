@@ -137,3 +137,9 @@ footer section p{
 .card:hover{
     box-shadow: 0 8px 8px rgba(0,0,0,.2);
 }
+
+@media (max-width:576){
+    main,aside,footer{
+        width: 100%;
+    }
+}
