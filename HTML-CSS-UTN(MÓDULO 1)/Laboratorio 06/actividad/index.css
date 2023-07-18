@@ -1,0 +1,57 @@
+ ::-webkit-scrollbar {
+   width: 0px;
+   height: 0px;
+   background: transparent;
+   /* make scrollbar transparent */
+ }
+ 
+ .bg-dark-transparent {
+   background-color: rgba(0, 0, 0, 0.3);
+ }
+ 
+ .w-3 {
+   width: 3%;
+ }
+ 
+ .top-35 {
+   top: 35%;
+ }
+ 
+ .bg-color {
+   background-color: lightgreen !important;
+ }
+ 
+ main .card:hover {
+   background-color: lightblue;
+   font-weight: bold;
+   color: white;
+ }
+ 
+ main .card button:hover {
+   background-color: black;
+ }
+ 
+ .pt-6 {
+   padding-top: 6%;
+ }
+ 
+ main aside:hover {
+   background-color: black;
+ 
+ }
+ 
+ .fbk-hover:hover {
+   color: lightgreen !important;
+ }
+ 
+ .menu-item-arrow::after {
+   display: inline-block;
+   margin-left: .255em;
+   vertical-align: .255em;
+   content: "";
+   border-top: .3em solid;
+   border-right: .3em solid transparent;
+   border-bottom: 0;
+   border-left: .3em solid transparent;
+ }
+

@@ -1,0 +1,140 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header {
+    width: 100%;
+    height: 70px;
+    background-color: white;
+    padding-left: 20px;
+}
+
+header img {
+    max-width: 50px;
+    padding: 17px 3px 4px 5px;
+    float:left;
+}
+
+header nav {
+    height: 70px;
+}
+
+header nav ol li {
+    float: left;
+    list-style-type: none;
+}
+
+header nav ol li a {
+    text-decoration: none;
+    padding: 15px 20px 15px 20px;
+    display: inline-block;
+    color: black;
+}
+
+header nav ol li a:hover{
+    background-color: black;
+    color: white;
+}
+
+main {
+    width: 70%;
+    background-color: #2d3e48;
+    float: left;
+    clear: both;
+}
+
+main section {
+    padding: 30px;
+}
+
+main section h2{
+    color:white;
+    font-size: 1.7em;
+}
+
+main section p {
+    color: white;
+    text-align: justify;
+    margin-bottom: 20px;
+    line-height: 1.5em;
+}
+
+aside {
+    width: 30%;
+    background-color: #903238;
+    padding: 30px;
+    float: left;
+}
+
+aside h2, aside ul li{
+    color:white;
+    margin-bottom: 15px;
+}
+
+aside ul li{
+    list-style-type: none;
+    border-bottom: 1px solid white;
+}
+
+aside ul li:hover{
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: black;
+    
+}
+
+.containt{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+footer{
+    clear:both;
+    width: 70%;
+    background-color: black;
+    padding: 60px;
+    width: 70%;
+}
+
+footer section{
+    width: 33.3%;
+    float: left;
+}
+
+footer section p{
+    color: white;
+    text-align: center;
+    
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(69, 6, 244, 0.5);
+    transition: .3s;
+    background-color: white;
+    border-radius: 10px;
+    width: 100%;
+
+}
+
+.card img{
+    max-width: 100%;
+    border-bottom: 1px solid rgba(0,0,0,.3);
+    
+}
+
+.card .container{
+    padding: 10px;
+}
+
+.card:hover{
+    box-shadow: 0 8px 8px rgba(0,0,0,.2);
+}
+

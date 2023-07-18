@@ -1,0 +1,64 @@
+body{
+    background-color: rgba(75, 11, 11, 0.256);
+    box-sizing: border-box;
+    
+}
+
+main form{
+    margin: auto;
+    width: 30%;
+    margin: auto;
+    padding-top: 10px;
+}
+
+main{
+    margin: auto;
+
+}
+
+main form div label{
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+main form div input{
+    font-size: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 10px;
+    padding: 4px;
+    margin-bottom: 10px;
+    
+    
+
+}
+
+main form div input:hover{
+    background-color: yellow;
+    
+    
+}
+
+main form div button{
+    border-radius: 10px;
+    width: 40%;
+    margin: auto;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+main form div button:hover{
+    background-color: aqua;
+    color: orange;
+}
+
+main form div select{
+    border-radius: 10px;
+    margin-bottom: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+main form div select:hover{
+    background-color:aqua
+    
+}

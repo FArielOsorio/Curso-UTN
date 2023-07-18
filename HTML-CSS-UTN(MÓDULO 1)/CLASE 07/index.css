@@ -1,0 +1,131 @@
+/*
+.flex-container{
+    display: flex;
+    background-color: black;
+    height: 50vh;
+    color: white;
+    
+    /* DIRECTION para indicar la direccion de los items 
+    
+    row => horizontalmente de izquierda a derecha.
+    row-reverse => horizontalmente de derecha a izquierda.
+    column => verticalmente de arriba hacia abajo.
+    column-reverse => verticalmente de abajo hacia arriba.
+   
+    flex-direction: column-reverse;
+    */
+
+    /*AJUSTE DE LINEA 
+    
+    nowrap => todos los elementos o items en una sola linea.
+    wrap => los elementos se colocan en varias lineas si no cabe en una sola.
+    wrap-reverse: los elementos se colocan en varias lineas si no cabe en una sola linea de abajo hacia arriba.
+   
+    flex-wrap: wrap-reverse;
+     */
+    /* flex-flow: column nowrap;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.flex-container div{
+    background-color: blue;
+    width: 200px;
+    height: 20vh;
+    margin: 10px;
+}
+
+.itemFour{
+    align-self: center;
+    background-color: red !important;
+    order: -1;
+}
+
+.itemThree{
+    background-color: greenyellow !important;
+    order: 1;
+}
+
+*/
+
+.containerA{
+    background-color: black;
+    display: flex;
+    height: 20vh;
+}
+
+.containerA .itemA{
+    margin: 10px;
+    border: 1px solid white;
+    background-color: red;
+    width: 30%;
+}
+
+.containerA .itemB{
+    width: 70%;
+    margin: 10px;
+    border: 1px solid white;
+    background-color: red;
+
+}
+
+.containerB{
+    background-color: black;
+    display: flex;
+    min-height: 80vh;
+
+}
+
+.containerB .itemA{
+    background-color: red;
+    width: 40%;
+    margin: 10px;
+}
+
+.containerB .itemB{
+    background-color: red;
+    width: 60%;
+    display: flex;
+    margin: 10px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.containerB .itemB div{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    background-color: black;
+}
+
+.rotate{
+    background-color: orange !important;
+    transform: skewX(30deg);
+}
+
+.rotate:hover{
+    transform: rotate(20deg);
+    background-color: aqua !important;
+}
+
+.scale{
+    color:white;
+    text-align: center;
+    transform: scale(2,0.8);
+}
+
+.translate:hover{
+    transform: translate(50px, 100px);
+    background-color: white !important;
+}
+
+.rotateX{
+    transition: width 4s, height 6s;
+}
+
+.rotateX:hover{
+    width: 300px !important;
+    height: 200px !important;
+    
+}

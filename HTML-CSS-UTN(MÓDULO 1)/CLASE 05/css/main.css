@@ -1,0 +1,35 @@
+/* font-family: 'Montserrat', sans-serif; */
+
+.container {
+    width: 100%;
+    background-color: #ddd;
+    border: 2px solid red;
+}
+
+.skill{
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    padding-right: 10px;
+    
+}
+
+.html{
+    width: 90%;
+    background-color: #04AA6D;
+}
+
+.php{
+    width: 40%;
+    background-color: aqua;
+}
+
+.wordpress{
+    width: 30%;
+    background-color: blue;
+}
+
+.bars{
+    width: 40%;
+}

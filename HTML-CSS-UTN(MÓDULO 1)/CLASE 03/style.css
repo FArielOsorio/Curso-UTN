@@ -1,0 +1,58 @@
+/* PSEUDO CLASS - ELEMENTOS
+
+: ... ::
+
+*/
+li:nth-child(even){
+    background-color: yellow;
+}
+
+li:nth-child(odd){
+    background-color: aquamarine;
+}
+
+:nth-child(3) {
+    background-color: blue !important;
+}
+
+table {
+    width: 100%;
+}
+
+tr:nth-child(even) {
+    background-color: #cecece;
+}
+
+tr:nth-child(odd) {
+    background-color: #fff;
+}
+
+tr:hover{
+
+    cursor:pointer;
+    border: 3px solid orangered;
+}
+
+input:focus{
+    background-color: black;
+    color:white;
+
+}
+
+p::first-letter{
+
+    color:green;
+    font-size: 50px;
+    background-color: pink;
+    text-transform: uppercase;
+}
+
+p::before {
+    content: "Prueba:";
+    text-decoration: underline;
+
+}
+
+p::after {
+    content: "...Ejemplo...";
+}
