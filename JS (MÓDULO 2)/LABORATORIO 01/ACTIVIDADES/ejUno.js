@@ -19,4 +19,4 @@ else {
     mayor = c;
 }
 
-document.write("El mayor número es: ",mayor);
+document.write("El número más grande es: ",mayor);
