@@ -128,3 +128,14 @@ else {
 for(let i=1; i<r; i++){
     console.log("FOR: ",i);
 }
+
+var inicio = prompt("Repetir desde: ");
+var final = prompt("Repetir hasta: ");
+
+for(let i=inicio;i<=final;i++){
+    console.log("RP-- ",i);
+}
+
+/**EJERCICIOS
+ * 
+ */
