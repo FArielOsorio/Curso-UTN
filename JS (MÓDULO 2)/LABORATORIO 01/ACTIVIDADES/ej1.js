@@ -1,18 +1,22 @@
-alert("Ingrese 3 valores");
+document.write("Ingrese 3 valores");
 
-let a = prompt("Ingrese el primer valor: ");
-let b = prompt("Ingrese el segundo valor: ");
-let c = prompt("Ingrese el tercer valor: ");
+let a,b,c,d,mayor;
+a = parseint(prompt("Ingrese el primer número: "));
+b = parseint(prompt("Ingrese el segundo número: "));
+c = parseint(prompt("Ingrese el tercer número: "));
 
-if(a>b && a>c){
-    alert("El mayor de los números es: ",a);
-}
-else if(b>a && b>c){
-    alert("El mayor de los números es: ",b);
-}
-else if(c>a && c>b){
-    alert("El mayor de los números es: ",c)
+if (a>b){
+    d = a;
 }
 else {
-    alert("El mayor es: ");
+    d = b;
 }
+
+if (d>c){
+    mayor = d;
+}
+else {
+    mayor = c;
+}
+
+document.write("El mayor número es: ",mayor);
