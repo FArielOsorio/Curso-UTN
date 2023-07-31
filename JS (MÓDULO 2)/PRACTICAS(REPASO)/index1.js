@@ -48,6 +48,6 @@ switch(tabla) {
 }
 
 
-let club = prompt("Ingrese el club de que el es hincha: ");
+
 
 
