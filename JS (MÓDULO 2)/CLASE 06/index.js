@@ -30,6 +30,7 @@ const clickAddPerson = () =>{   //
 
 const listDataPerson = (arrayDataPersona) => { //funcion que recibe el array y lo agrega a la tabla
     let list = '';
+    if(arrayDataPersona.length > 0){
 
     arrayDataPersona.forEach( (person) => {
         let status = returnStatusString(person.status)
@@ -41,6 +42,13 @@ const listDataPerson = (arrayDataPersona) => { //funcion que recibe el array y l
         </tr>`;    
     });
 
+}
+
+else{
+    list = `<tr>
+    <td class="text-center" colspan="4">SIN REGISTROS</td>
+    </tr>`;
+}
     document.getElementById("listPerson").innerHTML = list;
 }
 
