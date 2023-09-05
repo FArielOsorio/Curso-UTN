@@ -1,3 +1,9 @@
+/**EVALUAR QUE EL USUARIO NO INGRESE INPUT VACIOS
+ * EVALUAR QUE EL DNI NO SE REPITA
+ * VERIFICAR LA FUNCION DE ELIMINADO EN EL FILTER, O CONSIDERACION
+ * */
+
+
 let dataPerson = []; //array de datos
 
 const addDataPerson = (firstName,lastName,age,status,dni) =>{
@@ -101,4 +107,14 @@ const deletePerson = (position) =>{
           )
         }
       })
+}
+
+const messageAlert = (title,icon='success') =>{
+    Swal.fire({
+        position: 'top-end',
+        icon,
+        title: title,
+        showConfirmButton: false,
+        timer: 1000
+    })
 }
